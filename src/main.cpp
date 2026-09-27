@@ -42,7 +42,7 @@ int main() {
 
         else if (choice == 2) {
             if (students.empty()) {
-                std::cout << "No students found.\n";
+                std::cout << "No students found.[Jenkins CI]\n";
                 continue;
             }
 
