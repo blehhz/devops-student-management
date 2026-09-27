@@ -37,7 +37,7 @@ int main() {
 
             students.emplace_back(id, name, marks);
 
-            std::cout << "Student added successfully.\n";
+            std::cout << "Student added successfully! [Jenkins CI]\n";
         }
 
         else if (choice == 2) {
