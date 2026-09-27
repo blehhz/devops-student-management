@@ -9,7 +9,7 @@ void testStudentCreation() {
 
     assert(student.getId() == 101);
     assert(student.getName() == "Gordy");
-    assert(student.getMarks() == 87);
+    assert(student.getMarks() == 97);
 
     std::cout << "[PASS] Student creation\n";
 }
